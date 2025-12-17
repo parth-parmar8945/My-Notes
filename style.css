@@ -1,0 +1,96 @@
+body {
+    background: #f2f3f7;
+}
+
+.sidebar{
+    width: 240px;
+    height: 100vh;
+    background: #fff;
+    border-right: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-links li{
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.side-links li:hover{
+    color: blue;
+}
+
+.upgrade{
+    text-align: center;
+    background: #eef1ff;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.folder-card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.folder-card:hover{
+    transform: translateX(-5px);
+}
+
+.soft-blue{
+    background: #d7e9ff;
+}
+
+.soft-pink{
+    background: #ffd8d8;
+}
+
+.soft-yellow{
+    background: #e5dba0;
+}
+
+.add-folder{
+    text-align: center;
+    border: 2px dashed #bbb;
+}
+
+.note-card{
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 170px;
+    color: #222;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    position: relative;
+
+}
+
+.note-actions{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.note-actions i{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #555;
+}
+
+.note-actions i:hover{
+    color: #000;
+}
+
+.bg-yellow{
+    background: #e5dba0;
+}
+.bg-red{
+    background: #ffd8d8;
+}
+
+.bg-blue{
+    background: #d7e9ff;
+}
